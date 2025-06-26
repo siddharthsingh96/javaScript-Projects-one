@@ -1,0 +1,207 @@
+:root {
+    --lm-bg: #f6f8ff;
+    --lm-bg-content: #fefefe;
+    --lm-text: #4b6a9b;
+    --lm-text-alt: #2b3442;
+    --lm-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+    --lm-shadow-inactive: 0px 16px 30px -10px rgba(0, 0, 0, 0.2);
+    --lm-icon-bg: brightness(100%);
+    /* Btn */
+    --btn: #0079ff;
+    --btn-hover: #60abff;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Mono", monospace;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: #fff;
+}
+.container.active{
+    background-color: #2b3442;
+    color: white;
+}
+.first_div{
+    width: 50vw;
+  margin: 0 auto;
+  margin-top: 20vh;
+display: flex;
+align-self: center;
+align-items: center;
+justify-content: space-between;
+}
+.insideFirst{
+    display: flex;
+}
+.insideFirst img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.second_div{
+    width: 50vw;
+    margin: 0 auto;
+   padding: 10px 10px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-top: 40px;
+background-color: #f6f8ff;  
+border-radius: 10px;
+position: relative;
+}
+.second_div.active{
+    background-color: #4576c21f;
+    border-radius: 10px;
+}
+.second_div img{
+    width: 30px;
+    margin-right: 10px;
+}
+.second_div input{
+    all:unset;
+    width: 45vw;
+    font-size: 1.25rem;
+}
+.second_div button{
+    background-color: #0079ff;
+    width: 5vw;
+    height: 5wh;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* .text-change{
+    color:black;
+} */
+ .third_div{
+    width: 50vw;
+    margin: 0 auto;
+   padding: 10px 10px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+ margin-top: 10px;
+background-color: #f6f8ff;  
+border-radius: 10px;
+position: relative;
+height: 56VH;
+display: none;
+ }
+ .third_div.active{
+    display: flex;
+    background-color: #4576c21f;
+    border-radius: 10px;
+ }
+ .thdfimage img{
+   width: 100px;
+   height: 100px;
+position: absolute;
+top: 10%;
+border: 2PX solid black;
+border-radius: 100%;
+align-self: center;
+left: 5%;
+ }
+ .thd-topDiv{
+    width: 35vw;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    font-size: medium;
+    justify-content: space-between;
+    align-items: center;
+    left: 25%;
+ }
+ .third_div a{
+    position: absolute;
+    top: 23%;
+    left: 25%;
+ }
+ .third_div
+    .details-text{
+    font-size: medium;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+ }
+ .Followerswaaladiv{
+    font-size: medium;
+   position: absolute;
+   top:55%;
+   left: 25%;
+   background-color: #ffffff;
+   width: 35vw;
+   height: 12vh;
+   display: flex;
+   justify-content: space-evenly;
+   border-radius: 20px;
+ }
+ .Followerswaaladiv.active{
+    background-color: #08224926;
+ }
+ .Followerswaaladiv p{
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;    
+}
+ .Followerswaaladiv span{
+font-weight: bold;
+}
+.lastone{
+   
+   position: absolute;
+   bottom: 13%;
+   left: 35%;
+   width: 30vw;
+   height: 2vh;
+   display: flex;
+   align-items: center;
+   gap: 10%;
+}
+.pehladiv{
+    display: flex;
+    width: 15vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dusradiv{
+    display: flex;
+    width: 15vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lastonesecond{
+    position: absolute;
+    bottom: 3%;
+    left: 35%;
+    width: 30vw;
+    height: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+.fourth{
+    TOP: 50PX;
+    display: none;
+    position: absolute;
+    width: 500PX;
+    height: 50PX;
+    margin: 0 auto;
+   padding: 10px 10px;
+  
+ 
+}
+.fourth.active{
+    
+  display: flex;
+}
